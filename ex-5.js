@@ -1,6 +1,6 @@
 // Exercise #5: Concatenate the Alphabets
 let companyName = "TechUp";
 
-for (let letter of companyName) {
-    console.log(`character is ${letter}`);
+for (let i=0; i<companyName.length; i=i+1){
+    console.log(`Number ${i+1} character is ${companyName[i]}`);
 };
